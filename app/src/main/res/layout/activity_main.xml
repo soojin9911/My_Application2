@@ -10,7 +10,8 @@
         android:id="@+id/draw4"
         android:layout_width="394.0dp"
         android:layout_height="109.5dp"
-        android:layout_marginTop="673dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="600dp"
         android:background="@drawable/draw4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
