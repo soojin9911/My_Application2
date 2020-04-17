@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/artboard"
+    android:layout_width="394.0dp"
+    android:layout_height="782.5dp"
+    android:background="@drawable/artboard">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/draw4"
+        android:layout_width="394.0dp"
+        android:layout_height="109.5dp"
+        android:layout_marginTop="673dp"
+        android:background="@drawable/draw4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/draw3"
+            android:layout_width="214.0dp"
+            android:layout_height="54.5dp"
+            android:layout_marginStart="141.5dp"
+            android:layout_marginTop="49.5dp"
+            android:background="@drawable/draw3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|top"
+                android:text="@string/text2"
+                android:textColor="@color/color_ff000000"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="162.5dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|top"
+                android:text="@string/text3"
+                android:textColor="@color/color_ff090909"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="9dp"
+                android:gravity="start|top"
+                android:text="@string/text4"
+                android:textColor="@color/color_fff26a44"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="154.5dp"
+            android:layout_marginTop="11dp"
+            android:gravity="start|top"
+            android:text="@string/text5"
+            android:textColor="@color/color_ff000000"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="109.0dp"
+            android:layout_height="109.5dp"
+            android:src="@drawable/image1"
+            android:contentDescription="@string/play_thumnail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/draw1"
+        android:layout_width="394.0dp"
+        android:layout_height="335.0dp"
+        android:background="@drawable/draw1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/draw2"
+            android:layout_width="394.0dp"
+            android:layout_height="43.5dp"
+            android:layout_marginTop="13.5dp"
+            android:background="@drawable/draw2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="335.5dp"
+                android:layout_marginTop="3.5dp"
+                android:gravity="start|top"
+                android:text="@string/text1"
+                android:textColor="@color/color_ff000000"
+                android:textSize="25sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
+
+

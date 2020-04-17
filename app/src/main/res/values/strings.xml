@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text2">이전</string>
+    <string name="text3">다음</string>
+    <string name="text4">정지</string>
+    <string name="text5">우산(Love Song)</string>
+    <string name="text1">검색</string>
+    <string name="play_thumnail">재생썸네일</string>
+</resources>
