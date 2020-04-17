@@ -5,7 +5,7 @@
     android:layout_width="394.0dp"
     android:layout_height="782.5dp"
     android:background="@drawable/artboard">
-
+    //반응형으로 변경
     <RelativeLayout
         android:id="@+id/draw4"
         android:layout_width="394.0dp"
